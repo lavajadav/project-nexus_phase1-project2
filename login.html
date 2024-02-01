@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Login</title>
+  
+</head>
+<style> 
+    body{
+        width:100%;
+        height:100hv;
+        font-family: 'Roboto',sans-serif;
+        background-image: linear-gradient(90deg,rgba(120, 32, 202, 0.75), rgba(42, 93, 141, 0.75)), url(background.jpeg);
+        position:center;
+    }
+    
+    .login{
+        width: 360px;
+        height: 620px;
+        margin:auto;
+        background-color: white;
+         
+    }
+    
+    h1{
+        text-align: center;
+        padding-top:16px;
+    }
+    form{
+        width:300px;
+        margin-left:20px;
+    }
+    form label{
+        display:flex;
+        margin-top:20px;
+        font-size:18px;
+    }
+    form input{
+        width:100%;
+        padding:7px;
+        border:none;
+        border:1px solid rgb(190, 88, 88);
+        border-radius:7px;
+        outline:none
+    }
+    input[type="button"]{
+        width:320px;
+        height:35px;
+        margin-top:20px;
+        border:none;
+        background-color:rgb(85, 163, 99) ;
+        color:white;
+        font-size:19px;
+    }
+    
+    p{
+        text-align: center;
+        padding-top: 20px ;
+        font-size: 15px;
+    }
+    para-2{
+        text-align:center;
+        padding: 15px;
+        font-size:18px;
+        margin-top: -10px;
+    }
+    .login-box{
+        width:360px;
+        height:280px;
+        margin:auto;
+        border-radius:3px;
+        background-color: white;
+    
+    }
+</style>    
+<body>
+
+    <div class="login">
+        <h1> Login</h1>
+        <form>
+           <label>Email</label> 
+           <input type="text" placeholder="">
+           <label>Password</label>
+           <input type="text" placeholder="">
+
+        <button type="submit">Login</button>
+    </form>
+
+    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+
+</body>
+</html>
